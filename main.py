@@ -148,7 +148,7 @@ class Screen4(Screen):
     pass
 
 
-class CareManagementSystem(App):
+class Owl(App):
 
     def build(self):
         root = ScreenManager(transition=CardTransition())
@@ -162,4 +162,4 @@ class CareManagementSystem(App):
         return root
 
 
-CareManagementSystem().run()
+Owl().run()
